@@ -24,9 +24,13 @@ Things to reflect on:
   
 */
 
-let a = "Alice";
-let b = 5;
-let c = 20;
-let d = a + " bought " + b + " items for $" + c + ".";
+let personName = "Alice";
+let itemCount = 5;
+let totalCost = 20;
+let shopName = "FoodMart";
 
-console.log(d);
+let costPerItem = totalCost / itemCount;
+
+let tranSummary = personName + " bought " + itemCount + " items for $" + totalCost + " from " + shopName + ". Each item cost $" + costPerItem.toFixed(2) + ".";
+
+console.log(tranSummary);
