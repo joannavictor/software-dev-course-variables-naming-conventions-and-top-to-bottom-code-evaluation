@@ -19,8 +19,12 @@ You will:
 
 Things to reflect on:
   - Why is it important to use meaningful variable names?
+    It helps to  read and maintain the code easily.
   - What are the common pitfalls to avoid when naming variables?
+    Avoid using single letters or ambiguous names that do not convey the purpose of the variable.
   - How do clear variable names benefit team collaboration?
+    Code can be reused, understood, and maintained by different team members. Facilitates in building more functionality by different team members. team members
+    can easily understand the purpose of each variable.
   
 */
 
